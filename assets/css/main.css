@@ -1,0 +1,10 @@
+.submenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .submenu {
+    display: block;
+  }
+}
+  
