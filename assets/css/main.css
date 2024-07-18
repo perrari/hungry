@@ -7,4 +7,33 @@
     display: block;
   }
 }
-  
+
+
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set the height of the container */
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Adjust the margin as needed */
+}
+
+.download-button img {
+  max-width: 100%; /* Ensure the image does not exceed the button's width */
+  max-height: 100%; /* Ensure the image does not exceed the button's height */
+}
+
+.download-title {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
